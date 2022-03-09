@@ -1,0 +1,47 @@
+.claim-top-text {
+  color: blue;
+}
+
+.claim-bot-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.claim-bot-text img {
+  height: 10vh;
+}
+
+.claim-btn-nav {
+  margin: 0px;
+}
+
+.claim-btn-nav button {
+  border: none;
+  background: none;
+  margin: 0px;
+}
+
+#clogin {
+  color: rgb(19, 121, 236);
+  font-weight: bold;
+  text-decoration: wavy;
+  font-style: italic;
+}
+
+#cnum {
+  color: grey;
+  font-weight: bold;
+}
+
+#csym {
+  color: maroon;
+  font-weight: bold;
+}
+
+.claim-title {
+  margin-left: 50px;
+  color: rgb(31, 189, 26);
+  text-align: left;
+  font-weight: bolder;
+  font-style: italic;
+}

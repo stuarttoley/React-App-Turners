@@ -1,0 +1,39 @@
+.top-text {
+  color: blue;
+}
+
+.bot-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bot-text img {
+  height: 10vh;
+}
+
+.btn-nav {
+  margin: 0px;
+}
+
+.btn-nav button {
+  border: none;
+  background: none;
+  margin: 0px;
+}
+
+#login {
+  color: rgb(19, 121, 236);
+  font-weight: bold;
+  text-decoration: wavy;
+  font-style: italic;
+}
+
+#num {
+  color: grey;
+  font-weight: bold;
+}
+
+#sym {
+  color: maroon;
+  font-weight: bold;
+}

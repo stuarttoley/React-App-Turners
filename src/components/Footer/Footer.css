@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(75, 70, 70);
+
+  height: 10vh;
+}
+
+.footer-content {
+  height: 8vh;
+  margin-bottom: 5px;
+}
+
+.footer-content > button {
+  background-color: rgb(75, 70, 70);
+  color: antiquewhite;
+  box-shadow: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid rgb(143, 141, 141);
+  border-right: 1px solid rgb(143, 141, 141);
+
+  /* padding: 12px; */
+
+  height: 5vh;
+  width: 12vw;
+}
+
+.copyright {
+  color: antiquewhite;
+}

@@ -1,0 +1,89 @@
+.claim-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 78vh;
+  background-color: #ffffff80;
+  width: 100%;
+
+  background-image: url("./girlcar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  height: 75vh;
+  background-color: rgba(219, 183, 22, 0.63);
+  width: 40%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: navy;
+
+  background-image: url("./profile.png");
+  background-size: cover;
+
+  margin-left: 39%;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 15vh;
+  width: 100%;
+  background-color: #ffff;
+  padding: 20px 15px;
+}
+
+.card-content > img {
+  height: 40px;
+}
+
+#app {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.form {
+  /* border: 2px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  margin: 2vh;
+  height: 40vh;
+}
+
+.form > input,
+button {
+  height: 7vh;
+}
+
+#login-btn {
+  background-color: rgb(14, 42, 102);
+  color: #ffff;
+  height: 7vh;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}

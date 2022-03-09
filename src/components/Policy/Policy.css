@@ -1,0 +1,44 @@
+.policy-container {
+  display: flex;
+
+  justify-content: center;
+  height: 65vh;
+  background-color: #f3f1ef;
+  width: 100%;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  padding: 10px;
+  margin: 20px;
+}
+
+.table-container > table {
+  width: 100%;
+  padding: 10px;
+}
+
+.table-container > tr,
+table,
+td,
+th {
+  border: 2px solid black;
+}
+
+.claim-btn {
+  width: 15vw;
+  height: 8vh;
+  border-radius: 5px;
+  margin: 40px;
+
+  background-color: rgb(66, 103, 224);
+}
+.claim-btn button:hover {
+  color: white;
+  transition: 0.5s;
+}
