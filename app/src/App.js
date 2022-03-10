@@ -21,7 +21,7 @@ function App() {
      <Router>
        <Routes>
          <Route path='/' element={<HomePage />}/>
-         <Route path='http://turners-react.s3-website-ap-southeast-2.amazonaws.com/login' element={<LoginPage />}/>
+         <Route path='/http://turners-react.s3-website-ap-southeast-2.amazonaws.com/login' element={<LoginPage />}/>
          <Route path='/claim' element={<ClaimPage />}/>
          <Route path='/howto' element={<HowToPage />}/>
          <Route path='/practise' element={<LoginTest />}/>
