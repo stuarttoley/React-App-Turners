@@ -22,3 +22,7 @@
   width: 100%;
   background-color: #f3f1ef;
 }
+
+.merry > img {
+  height: 100px;
+}
