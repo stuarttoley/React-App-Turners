@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Carousel from 'react-elastic-carousel'
-import Item from './Item'
+
 
 import Poster from './poster.jpg'
 import Lambo from './lambo.jpg'
@@ -38,41 +38,41 @@ function Home() {
             <p>Recommended Cars for yous</p>
 
             <Carousel breakPoints={breakPoints}>
-                <Item>
+            
                     <div>
                     <img src={Lambo} alt=''/><p>Lamborghini Aventador</p>
                     </div>
-                    </Item>
-                <Item>
+                    
+            
                     <div>
                     <img src={Corolla} alt=''/><p>Toyota Corolla</p>
                     </div>
-                </Item>
-                <Item>
+                
+            
                     <div>
                     <img src={Mazda} alt=''/><p>Mazda Demio</p>
                     </div>
-                </Item>
-                <Item>
+                
+            
                     <div>
                     <img src={Merc} alt=''/><p>Mercedes-Benz</p>
                     </div>
-                </Item>
-                <Item>
+                
+            
                     <div>
                     <img src={Volvo} alt=''/><p>Volvo</p>
                     </div>
-                </Item>
-                <Item>
+                
+            
                     <div>
                     <img src={Van} alt=''/><p>Volkswagon</p>
                     </div>
-                </Item>
-                <Item>
+                
+            
                     <div>
                     <img src={Porsche} alt=''/><p>Mercedes-Benz GLA</p>
                     </div>
-                </Item>
+                
                 
             </Carousel>
             
