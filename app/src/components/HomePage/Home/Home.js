@@ -35,7 +35,7 @@ function Home() {
 
         <div className='go-round'>
 
-            <p>Recommended Cars for yous</p>
+            <p>Recommended Cars for you</p>
 
             <Carousel breakPoints={breakPoints}>
             
