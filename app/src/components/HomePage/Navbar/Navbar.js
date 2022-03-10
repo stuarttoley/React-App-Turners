@@ -21,7 +21,7 @@ function Navbars() {
         <NavDropdown title='Insurance' id="basic-nav-dropdown" bg='light' class='me-auto'>
 
           <NavDropdown.Item href="buy-insurance"> Buy Insurance</NavDropdown.Item>
-          <NavDropdown.Item href="/http://turners-react.s3-website-ap-southeast-2.amazonaws.com/login">Claim Insurance</NavDropdown.Item>
+          <NavDropdown.Item href="http://turners-react.s3-website-ap-southeast-2.amazonaws.com/login">Claim Insurance</NavDropdown.Item>
 
         </NavDropdown>
         <Nav.Link href="#link"><p class ='text-light'>Careers</p></Nav.Link>
